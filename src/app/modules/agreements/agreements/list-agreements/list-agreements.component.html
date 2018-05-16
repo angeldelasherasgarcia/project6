@@ -1,0 +1,23 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col" style="width: 12%">{{'lista_registro.num_convenio' | translate}}</th>
+      <th scope="col" style="width: 15%">{{'lista_registro.formalizacion' | translate}}</th>
+      <th scope="col" style="width: 15%">{{'lista_registro.tipo' | translate}}</th>
+      <th scope="col" style="width: 45%">{{'lista_registro.titulo' | translate}}</th>
+      <th scope="col" style="width: 15%">{{'lista_registro.vigencia' | translate}}</th>
+    </tr>
+  </thead>
+  <tbody >
+    <tr class="fileTable"
+        *ngFor="let lista of lista_registros | paginate :{itemsPerPage: 7 , currentPage:pagination}"
+        (click)="showDetails(lista)">
+      <td style="width: 10%">{{lista.num_convenio}}</td>
+      <td style="width: 15%">{{lista.tipo}}</td>
+      <td style="width: 15%">{{lista.num_convenio}}</td>
+      <td style="width: 45%">{{lista.titulo.substr(0,100)+"..."}}</td>
+      <td style="width: 15%">{{lista.registered.substr(0,10)}}</td>
+    </tr>
+  </tbody>
+</table>
+<pagination-controls (pageChange)="pagination=$event"></pagination-controls>

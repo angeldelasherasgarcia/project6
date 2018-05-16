@@ -42,7 +42,8 @@ export function createTranslateLoader(http: HttpClient) {
     ListFolderComponent,
     ListRelatedComponent,
     ModalOneButtonComponent,
-    ModalTwoButtonComponent
+    ModalTwoButtonComponent,
+    SecundaryNavComponent
   ],
   entryComponents: [
     ModalDownloadFileComponent,
