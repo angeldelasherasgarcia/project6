@@ -1,0 +1,9 @@
+<div >
+  <ul >
+      <li *ngFor="let titulo of titulos"
+          [ngClass]="{'isSelected': isSelected === titulo}"
+          (click)="showDetails(titulo)">
+          {{titulo}}
+      </li>
+  </ul>
+</div>

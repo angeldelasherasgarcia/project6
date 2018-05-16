@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { NgbActiveModal, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-modal-two-button',
@@ -6,8 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./modal-two-button.component.css']
 })
 export class ModalTwoButtonComponent implements OnInit {
-
-  constructor() { }
+  @Input() titulo;
+  @Input() texto_modal;
+  @Input() texto_boton1;
+  @Input() texto_boton2;
+  constructor(private modalService: NgbModal,
+    public activeModal: NgbActiveModal) { }
 
   ngOnInit() {
   }

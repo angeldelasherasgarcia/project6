@@ -1,0 +1,24 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E8EBEF;
+}
+li {
+  margin-left: 2%;
+  margin-top:0%;
+  margin-bottom: 0%;
+  float: left;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  color: #1369D6;
+}
+li:hover {
+  cursor: pointer;
+}
+.isSelected{
+  background-color:white;
+  color: #000000 ;
+}

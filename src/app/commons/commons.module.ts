@@ -11,6 +11,7 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { NgxPaginationModule} from 'ngx-pagination';
+import { SecundaryNavComponent } from './secundary-nav/secundary-nav.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -33,7 +34,8 @@ export function createTranslateLoader(http: HttpClient) {
     ListRelatedComponent,
     ModalDownloadFileComponent,
     ModalOneButtonComponent,
-    ModalTwoButtonComponent
+    ModalTwoButtonComponent,
+    SecundaryNavComponent
   ],
   exports:[
     ModalDownloadFileComponent,
