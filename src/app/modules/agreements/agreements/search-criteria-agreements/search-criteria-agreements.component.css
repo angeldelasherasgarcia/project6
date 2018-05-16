@@ -1,0 +1,30 @@
+.search_criteria{
+  margin-top: 1%;
+  background: white;
+}
+.since_until{
+  margin-top: 3%;
+}
+.num_convenio_disbled{
+  width: 30px;
+  text-align: center;
+}
+.num_convenio_abled{
+  width: 75px;
+}
+.two_imputs_file{
+  margin-top: -3%;
+}
+.entidades{
+  margin-top: -1%;
+}
+.header_serach_criteria{
+  background-color: rgb(211, 217, 226);
+  margin-bottom: -0.8%;
+  color: white;
+  text-align: center;
+}
+.input-error{
+border: 1px solid red !important;
+background-color: rgb(248, 239, 239) !important;
+}

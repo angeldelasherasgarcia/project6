@@ -1,0 +1,132 @@
+{
+    "titulo": "CONEX",
+    "nav_bar":{
+        "filtro_instrumentos":"Filtro instrumentos",
+        "convenios":"Convenios",
+        "encomiendas":"Encomiendas",
+        "decretos_resoluciones":"Decretos y resoluciones",
+        "accesos":"Contador",
+        "administracion":"Administración"
+    },
+    "buscador":{
+        "criterio_busqueda":"Criterio de busqueda de convenios",
+        "titulo_object":"Titulo/objeto:",
+        "organo_responsable":"Órgano responsable:",
+        "description_organo":"(*)Los convenios suscritos con anterioridad al 1 de enero de 2010 y también aquellos que hayan sido suscritos por los distritos , están asociados a la SGT a la que figure adscrita la Oficina del Secretario de la Junta de Gobierno",
+        "fecha_formalizacion":"Fecha de formalización:",
+        "desde":"Desde:",
+        "hasta":"Hasta:",
+        "num_convenio":"Nº de convenio:",
+        "importe_gastos":"Importe gastos:",
+        "importe_ingresos":"Importe ingresos:",
+        "organos_firmantes":"Organos firmantes:",
+        "entidades_firmantes":"Entidades firmantes:",
+        "tipo_entidades":"Tipo Entidad:",
+        "tipo_convenio":"Tipo Convenio:",
+        "materia":"Materia:",
+        "buscar":"Buscar"
+    },
+    "lista_registro":{
+        "num_convenio":"Nº Convenio:",
+        "formalizacion":"Formalización:",
+        "tipo":"Tipo:",
+        "titulo":"Titulo:",
+        "vigencia":"Vigencia:"
+    },
+    "show-details-agreements":{
+        "datos_convenio":"Datos del Convenio",
+        "fecha_formalizacion":"Fecha de formalización:",
+        "num_expediente":"Nº Expediente:",
+        "titulo":"Titulo/objeto :",
+        "organos_firmantes":"Órganos firmantes:",
+        "firmantes":"Firmantes:",
+        "obligados":"Obligados:",
+        "entidades_firmantes":"Entidades firmantes:",
+        "entidad":"Entidad:",
+        "tipo_convenio":"Tipo Convenio:",
+        "materia":"Materia:",
+        "anexos":"Anexos",
+        "vigencia":"Vigencia:",
+        "importe":"Importe(totales):",
+        "desde":"Desde:",
+        "hasta":"Hasta:",
+        "ingresos":"Ingresos:",
+        "gastos":"Gastos:",
+        "prorroga":"Prórroga:",
+        "duracion":"Duración:"
+    },
+    "folder":{
+        "fecha":"Fecha:",
+        "nombreFichero":"Nombre fichero:",
+        "descripcion":"Descripción:",
+        "descargar":"Descargar"
+    },
+    "related":{
+        "num_convenio": "Nº Convenio:",
+        "fecha":"Fecha:",
+        "titulo":"Título:"
+    },
+    "buscador-encomiendas":{
+        "titulo":"Criterio de busqueda Encomiendas",
+        "titulo-objeto":"Titulo/objeto:",
+        "organo-responsable":"Órgano responsable:",
+        "fecha-formalizacion":"Fecha de formalización:",
+        "desde":"Desde:",
+        "hasta":"Hasta:",
+        "description_organo":"(*)Las Encomiendas de Gestión suscritas por los distritos , están asociados a la SGT a la que figure adscrita la Oficina del Secretario de la Junta de Gobierno.",
+        "num_encomienda":"Nº de encomienda:",
+        "importe_gastos":"Importe gastos:",
+        "encomendante":"Encomendante:",
+        "encomendado":"Encomendado:",
+        "tipo_aportacion":"Tipo de aportación:",
+        "materia":"Materia:"
+    },
+    "lista-encomiendas":{
+       "num_encomienda":"Nº encomienda",
+       "fecha_formalizacion":"Fecha de formalización:",
+       "titulo":"Titulo:",
+       "vigencia":"Vigencia:"
+    },
+    "show-details-parcels":{
+        "tipo_aprobacion":"Tipo Aprobación:",
+        "encomendante":"Encomendante:",
+        "encomendado":"Encomendado:",
+        "materia":"Materia:",
+        "anexos":"Anexos"
+    },
+    "search-criteria-decrees":{
+        "titulo_busqueda":"Criterios de busqueda Decretos/Resoluciones",
+        "titulo":"Título:",
+        "organo-resolucion":"Órgano de resolución:",
+        "fecha-aprobacion":"Fecha de Aprobación:",
+        "num_decreto":"Nº de Decreto/Resolución:",
+        "num_expediente":"Nº Expediente:",
+        "nombre_razon":"Nombre/Razón social:",
+        "sgts":"SGTs",
+        "distritos":"Distritos",
+        "ooaa":"OO.AA"
+    },
+    "list-decrees":{
+        "num_decreto":"Nº de Decreto/Resolución:",
+        "area":"Area:",
+        "tipo":"Tipo:",
+        "fecha":"Fecha:",
+        "descripcion":"Descripción:"
+    },
+    "detail-decrees":{
+        "titulo":"Datos del Decreto/Resolución",
+        "tipo":"Tipo:",
+        "organo_resolucion":"Órgano de resolución:",
+        "materia":"Materia:",
+        "denominacion_decreto":"Denominación del decreto/resolución:",
+        "interesado":"Interesado:",
+        "estado":"Estado:",
+        "situacion_fisica":"Situación física:",
+        "sgt":"S.G.T. :",
+        "area":"Area:",
+        "num_exp":"Nº Expediente:"
+    },
+    "errores":{
+      "comparar_fecha":"La fecha desde no puede ser superior a la fecha hasta"
+    }
+}
